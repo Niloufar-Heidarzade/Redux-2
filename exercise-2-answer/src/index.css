@@ -1,0 +1,11 @@
+* {
+  font-family: Poppins , sans-serif;
+}
+body {
+  margin: 0px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}

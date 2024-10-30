@@ -1,0 +1,85 @@
+header img {
+  width: 70px;
+  height: 40.21px;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+header h3 {
+  font-size: 19px;
+  font-weight: 500;
+}
+nav {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  gap: 25px;
+}
+.cart {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  position: relative;
+}
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+header nav p {
+  cursor: pointer;
+}
+.home {
+  color:rgb(252, 95, 95);
+}
+.home:hover , .aboutUs:hover , .contactUs:hover {
+  color:rgb(252, 95, 95);
+}
+.cart p :hover {
+  color: black;
+}
+.cartIcon {
+  cursor: pointer;
+}
+.badge {
+  background-color: rgb(211, 47, 47);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 0.75rem;
+  position: absolute;
+  bottom: 32px;
+  right: -10px;
+}
+.noBadge {
+  display: none;
+}
+.burgerMenu {
+  display : none !important;
+}
+@media  (max-width : 750px) {
+  nav > p {
+    display: none;
+  }
+  .burgerMenu {
+    display: inline !important;
+    font-size: 30px !important;
+    margin-left: 50px;
+  }
+  .logo img{
+    width: 40px;
+    height: 25px;
+  }
+  .logo h3 {
+    font-size: 15px;
+  }
+}

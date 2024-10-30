@@ -1,0 +1,90 @@
+.card {
+  width: 236px;
+  height: 345px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  position: relative;
+}
+.cardInfo {
+  padding-left: 16px;
+  margin-top: 19px;;
+}
+.card img {
+  width: 100%;
+  margin-bottom: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.card p {
+  font-size: 12px;
+  color: #5d6167;
+  margin-bottom: 4px;
+}
+.card h4{
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.offPrice {
+  font-size: 13px;
+  font-weight: 600;
+}
+.priceOnly {
+  font-size: 13px;
+  font-weight: 600;
+}
+.oldPrice {
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+.starIcon {
+  color: gold;
+  font-size: 16px !important;
+}
+.starBorderIcon {
+  color: #808080;
+  font-size: 16px !important;
+}
+.grade {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.priceInfo {
+  display: flex;
+  margin-top: -10px;
+  gap: 5px;
+}
+.addToCart {
+  position: absolute;
+  left: 190px;
+  top:40px;
+  width:33px;
+  height: 33px;
+  border-radius: 50% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.card:hover .addToCart {
+  opacity: 1;
+}
+.addToCart:hover .addToCartIcon {
+  color: #1b1b1b;
+  opacity: 87%;
+}
+.addToCartIcon {
+  color: gray;
+}
+.snackbar {
+  width: 300px;
+  height: 50px;
+  background-color: #43a047;
+  color: white;
+}
