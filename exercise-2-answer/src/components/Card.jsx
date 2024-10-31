@@ -12,7 +12,7 @@ function Card({type , name , stars , price , offPrice , src}) {
   const dispatch = useDispatch();
   const itemPrice = parseFloat(offPrice ? offPrice : price);
   const { enqueueSnackbar } = useSnackbar();
-
+  
   return(
     <div className="card">
       <Tooltip title="Add to cart" arrow placement="left">

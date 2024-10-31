@@ -63,14 +63,31 @@ header nav p {
 .noBadge {
   display: none;
 }
-.burgerMenu {
+.burgerMenuIcon {
   display : none !important;
+}
+.burgerMenu {
+  width: 250px;
+  height: 100vh;
+  background-color: white;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+.noBurgerMenu {
+  display: none;
+}
+.buttons {
+  margin-top: 10rem;
 }
 @media  (max-width : 750px) {
   nav > p {
     display: none;
   }
-  .burgerMenu {
+  .burgerMenuIcon {
     display: inline !important;
     font-size: 30px !important;
     margin-left: 50px;
